@@ -12,6 +12,7 @@ import java.util.Optional;
 import java.util.OptionalInt;
 import org.junit.Assert;
 import static org.junit.Assert.*;
+import org.junit.Ignore;
 
 /**
  *
@@ -62,6 +63,7 @@ public class NewEmptyJUnitTest {
     }
 
     @Test
+    @Ignore
     public void testMergeSort() {
         Integer[] ints = {5, 4,3,2,1};
         Integer[] aux = new Integer[ints.length];
@@ -72,6 +74,7 @@ public class NewEmptyJUnitTest {
     }
 
     @Test
+    @Ignore
     public void testBottomUpMergeSort() {
         Integer[] ints = {5, 4, 3, 2};
         Integer[] aux = new Integer[ints.length];
